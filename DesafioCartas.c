@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 //Concerteza alguns PIB das cidades não estão corretos, por conta de não conseguir achar informção exata deles, Quase todos nem mostram em sites ou em chatgpt. Por isso coloquei o PIB do estado e não da cidade.
+// da mesma forma os pontos turísticos nao mostram a quantidade exata, por isso também não está a quantidade correta.
 int main(){
   char pais [20] = "Argentina";
   char Estado1 [20] = "buenos Aires";
@@ -19,13 +20,14 @@ int main(){
   float area_v03 = 34.5;
   double pib_v03 = 119.651;
   char T04 [20] = "tandil";
-  double populacao_t04 = 150.162
-  float area_t04 = 3.8
+  double populacao_t04 = 150.162;
+  float area_t04 = 3.8;
   char Estado2 [20] = "chaco";
   char S01 [20] = "san bernado";
-  double populacao_s01 = 1142.963
-  float area_s01 = 99.63
-  double pib_s01 = 
+  double populacao_s01 = 1142.963;
+  float area_s01 = 99.63;
+  double pib_s01 = 8.6;
+  int pontos_s01 = 6;
   char R02 [20] = "resistencia";
   char C03 [20] = "corzuela";
   char C04 [20] = "charata";
